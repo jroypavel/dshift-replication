@@ -1,0 +1,16 @@
+# Versions reported in the paper (Software paragraph, Section 4); CPU only.
+# Python 3.13
+jax==0.11.*
+optax==0.2.*
+scikit-learn==1.9.*
+lightgbm==4.7.*
+statsmodels==0.15.*
+numpy==2.5.*
+pandas==3.0.*
+scipy==1.18.*
+matplotlib==3.11.*
+# also needed (any recent version)
+pyarrow
+patsy
+# only for download_wrds_data.sh
+wrds

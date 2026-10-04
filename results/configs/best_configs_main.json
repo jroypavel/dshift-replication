@@ -1,0 +1,47 @@
+{
+ "lgbm": {
+  "num_leaves": 8,
+  "learning_rate": 0.05,
+  "min_child_samples": 100,
+  "reg_lambda": 1.0,
+  "colsample_bytree": 0.8
+ },
+ "lgbm_val": 0.05394457481131057,
+ "rf": {
+  "min_samples_leaf": 50,
+  "max_features": "sqrt"
+ },
+ "rf_val": 0.052812188448979294,
+ "mlp": {
+  "hidden": [
+   128,
+   64
+  ],
+  "rep": 8,
+  "lr": 0.003,
+  "wd": 0.001
+ },
+ "mlp_val": 0.05353018844310485,
+ "mcd": {
+  "drop_p": 0.3
+ },
+ "mcd_val": 0.05300601509629309,
+ "sngp": {
+  "norm_c": 1.0,
+  "scale": 0.5,
+  "ridge": 1.0
+ },
+ "sngp_val": 0.05466882562795475,
+ "llla": {
+  "prior_prec": 0.1
+ },
+ "llla_val": 0.05352040446004913,
+ "vids": {
+  "m": 200,
+  "lam": 0.0001,
+  "tau": 0.01,
+  "lr": 0.003,
+  "sigma_init": 0.03
+ },
+ "vids_val": 0.0534597966295378
+}

@@ -1,0 +1,10 @@
+contrast,estimate,se,p,se_type
+post minus pre (levels),-0.6773459967786384,0.25259528779198204,0.023031501748629092,"years, nonrobust"
+post minus pre (levels),-0.6773459967786384,0.23895612559525156,0.004588251651645722,"years, HC1"
+post minus pre (levels),-0.6773459967786395,0.10796708209283455,,firm-clustered
+post deviation from pre trend,0.22628176337115213,0.5891890567978187,0.7109433058616552,"years, nonrobust"
+pre-period trend per year,-0.1290896800213986,0.07696723125373056,0.13202502366402477,"years, nonrobust"
+post deviation from pre trend,0.22628176337115213,0.5159021540142014,0.6609414533429788,"years, HC1"
+SD of yearly intercepts 2011-17,0.4779693615956593,,,
+SD of yearly intercepts 2019-23,0.3500831338830558,,,
+mean firm-clustered SE of a yearly intercept,0.19922281468926759,,,
